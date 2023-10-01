@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://www.xtrafondos.com/wallpapers/resized/rick-y-morty-escapando-de-portal-9235.jpg?s=large");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* dividimos en columnas */
+    gap: 18px; /* separación entre cada tarjeta */
+}
+
+.image-container {
+    display: flex; /* permite modificar la imagen libremente */
+}
+
+.image-container img {
+    width: 100%;
+}
+
+article {
+    padding: 10px;
+    box-shadow: 0px 0px 1px #000;
+    background-color: aliceblue;
+}
